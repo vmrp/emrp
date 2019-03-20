@@ -1,0 +1,25 @@
+[information]
+projectname=Helloworld.mpr
+filename=e_mrp.mrp
+appname=ÕÆÉÏe_mrp
+appid=110124
+version=1001
+visible=1
+cpu=100
+vendor=Ä¬Ë®Æ¿
+output=e_mrp.mrp
+description=ÕÆÉÏe_mrp!
+include=C:\SKYMOBI\SDS4CPv1.0\Compiler\include\, sfw\modules\, src\
+config=mtk
+
+
+[config_mtk]
+output=1.mrp
+bmp_mode=normal
+c_compiler=thumb
+
+[files]
+file01 = sfw\mrc\mrc_win.c
+file02 = src\helloworld.c
+file03 = src\mrp.c
+
